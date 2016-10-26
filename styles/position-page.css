@@ -1,1 +1,43 @@
+nav {
+	padding-left: 60px;
+	padding-right: 60px;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: gray;
+}
+
+ul	{
+	display: inline-block;
+	list-style: none;
+} 
+
+li	{
+	display: inline-block;
+	list-style: none;
+	position: relative;
+	color: purple;
+}
+
+img	{
+	border: 1px solid black;
+	border-radius: 100px;
+	background-size: contain;
+	height: 90%;
+	vertical-align: middle;
+}
+
+a:link {
+	color: DarkSlateBlue;
+}
+
+a:visited {
+	color: DarkSlateBlue;
+}
+
+li::after {
+	content: "|";
+	padding: 5px;
+	color: black;
+}
 
